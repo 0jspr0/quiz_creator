@@ -17,3 +17,5 @@ def create_quiz():
         add_another_question_choice = input("Do you want to add another question? (yes/no):\n").strip().lower()
         if add_another_question_choice != "yes":
             break
+
+create_quiz()
