@@ -1,6 +1,6 @@
 def create_quiz():
     while True:
-    	question = input("Enter a question:\n")
+        question = input("Enter a question:\n")
 
         answers = {}
         for option in ['a', 'b', 'c', 'd']:
