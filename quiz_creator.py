@@ -8,3 +8,8 @@ def create_quiz():
             answers[option] = answer
 
         correct_answer = input("Enter the correct answer (a, b, c, or d):\n")
+
+        with open("quiz.txt", "a") as file:
+            file.write(f"Question: {question}\n")
+            for option, answer in answers.items():
+                file.write(f"{option}. {answer}\n")
