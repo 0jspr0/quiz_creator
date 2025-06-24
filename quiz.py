@@ -23,3 +23,5 @@ def load_answers(random_number, lines):
 		answers.append(answer)
 	for answer in answers:
 		print(answer)
+
+def load_correct_answer(random_number, lines):
