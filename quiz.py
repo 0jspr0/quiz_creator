@@ -25,3 +25,6 @@ def load_answers(random_number, lines):
 		print(answer)
 
 def load_correct_answer(random_number, lines):
+	correct_answer_number = ((random_number - 1) * 6) + 6
+	correct_answer = lines[correct_answer_number - 1].replace("Correct answer: ", "")[:1]
+	return correct_answer
