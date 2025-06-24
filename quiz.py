@@ -8,3 +8,5 @@ def initialize(quiz_file):
 	for line in range(len(lines)):
 		lines[line] = lines[line][:-1]
 	return lines, random_number
+
+def load_question(random_number, lines):
