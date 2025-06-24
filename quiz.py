@@ -30,3 +30,5 @@ def load_correct_answer(random_number, lines):
 	return correct_answer
 
 def input_your_answer():
+	your_answer = input("\nWhat is your answer? (a, b, c, or d)\n")
+	return your_answer
