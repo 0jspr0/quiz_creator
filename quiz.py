@@ -44,3 +44,4 @@ def load_quiz(quiz_file):
 	lines, random_number = initialize(quiz_file)
 	load_question(random_number, lines)
 	load_answers(random_number, lines)
+	correct_answer = load_correct_answer(random_number, lines)
