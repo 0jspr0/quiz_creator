@@ -34,3 +34,8 @@ def input_your_answer():
 	return your_answer
 
 def check_if_your_answer_is_correct(your_answer, correct_answer):
+	if your_answer == correct_answer:
+		print("Your answer is correct!")
+	else:
+		print("Your answer is incorrect!")
+		print(f"Correct answer: {correct_answer}")
