@@ -41,3 +41,4 @@ def check_if_your_answer_is_correct(your_answer, correct_answer):
 		print(f"Correct answer: {correct_answer}")
 
 def load_quiz(quiz_file):
+	lines, random_number = initialize(quiz_file)
