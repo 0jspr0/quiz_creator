@@ -10,3 +10,6 @@ def initialize(quiz_file):
 	return lines, random_number
 
 def load_question(random_number, lines):
+	question_number = ((random_number - 1) * 6) + 1
+	question = lines[question_number - 1].replace("Question: ", "")
+	print(question)
