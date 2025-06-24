@@ -15,3 +15,11 @@ def load_question(random_number, lines):
 	print(question)
 
 def load_answers(random_number, lines):
+	answers = []
+	answer_number = ((random_number - 1) * 6) + 1
+	for i in range(4):
+		answer_number += 1
+		answer = lines[answer_number - 1]
+		answers.append(answer)
+	for answer in answers:
+		print(answer)
