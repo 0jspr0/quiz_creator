@@ -45,3 +45,4 @@ def load_quiz(quiz_file):
 	load_question(random_number, lines)
 	load_answers(random_number, lines)
 	correct_answer = load_correct_answer(random_number, lines)
+	your_answer = input_your_answer()
