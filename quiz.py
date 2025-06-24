@@ -7,3 +7,4 @@ def initialize(quiz_file):
 	random_number = random.randrange(1, 	number_of_entries + 1)
 	for line in range(len(lines)):
 		lines[line] = lines[line][:-1]
+	return lines, random_number
